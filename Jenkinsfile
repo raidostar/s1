@@ -1,4 +1,4 @@
-def project = 'REPLACE_WITH_YOUR_PROJECT_ID'
+def project = 'helpful-girder-240208'
 def  appName = 'gceme'
 def  feSvcName = "${appName}-frontend"
 def  imageTag = "gcr.io/${project}/${appName}:${env.BRANCH_NAME}.${env.BUILD_NUMBER}"
